@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7F9A4A1965767E00259BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F9A491965767E00259BA0 /* Foundation.framework */; };
+		ED7F9A4C1965767E00259BA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F9A4B1965767E00259BA0 /* CoreGraphics.framework */; };
+		ED7F9A4E1965767E00259BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F9A4D1965767E00259BA0 /* UIKit.framework */; };
+		ED7F9A541965767E00259BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED7F9A521965767E00259BA0 /* InfoPlist.strings */; };
+		ED7F9A561965767E00259BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A551965767E00259BA0 /* main.m */; };
+		ED7F9A5A1965767E00259BA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A591965767E00259BA0 /* AppDelegate.m */; };
+		ED7F9A5C1965767E00259BA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7F9A5B1965767E00259BA0 /* Images.xcassets */; };
+		ED7F9A631965767E00259BA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F9A621965767E00259BA0 /* XCTest.framework */; };
+		ED7F9A641965767E00259BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F9A491965767E00259BA0 /* Foundation.framework */; };
+		ED7F9A651965767E00259BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F9A4D1965767E00259BA0 /* UIKit.framework */; };
+		ED7F9A6D1965767E00259BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED7F9A6B1965767E00259BA0 /* InfoPlist.strings */; };
+		ED7F9A6F1965767E00259BA0 /* lxAvatarCropperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A6E1965767E00259BA0 /* lxAvatarCropperTests.m */; };
+		ED7F9A8C1965770D00259BA0 /* COAvatarCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A7B1965770D00259BA0 /* COAvatarCropperViewController.m */; };
+		ED7F9A8D1965770D00259BA0 /* COViewUtlity.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A7D1965770D00259BA0 /* COViewUtlity.m */; };
+		ED7F9A8F1965770D00259BA0 /* COAvatarCropperImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A821965770D00259BA0 /* COAvatarCropperImageScrollView.m */; };
+		ED7F9A901965770D00259BA0 /* COAvatarCropperLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A841965770D00259BA0 /* COAvatarCropperLayoutView.m */; };
+		ED7F9A911965770D00259BA0 /* COAvatarCropperOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A861965770D00259BA0 /* COAvatarCropperOverlayView.m */; };
+		ED7F9A921965770D00259BA0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A881965770D00259BA0 /* FirstViewController.m */; };
+		ED7F9A931965770D00259BA0 /* COStandardCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A8B1965770D00259BA0 /* COStandardCameraManager.m */; };
+		ED7F9A9619657A1B00259BA0 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A9519657A1B00259BA0 /* UIImage+Additions.m */; };
+		ED7F9A9919657ADB00259BA0 /* COFakeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A9819657ADB00259BA0 /* COFakeNavigationBar.m */; };
+		ED7F9AA319657F9400259BA0 /* barbuttonicon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7F9AA219657F9400259BA0 /* barbuttonicon_back@2x.png */; };
+		ED7F9AA6196586E800259BA0 /* COAvatarCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9AA5196586E800259BA0 /* COAvatarCropManager.m */; };
+		ED7F9AA9196591FF00259BA0 /* COImageUtlity.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9AA8196591FF00259BA0 /* COImageUtlity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7F9A661965767E00259BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7F9A3E1965767E00259BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7F9A451965767E00259BA0;
+			remoteInfo = lxAvatarCropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED7F9A461965767E00259BA0 /* lxAvatarCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lxAvatarCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F9A491965767E00259BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED7F9A4B1965767E00259BA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED7F9A4D1965767E00259BA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED7F9A511965767E00259BA0 /* lxAvatarCropper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lxAvatarCropper-Info.plist"; sourceTree = "<group>"; };
+		ED7F9A531965767E00259BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED7F9A551965767E00259BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7F9A571965767E00259BA0 /* lxAvatarCropper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lxAvatarCropper-Prefix.pch"; sourceTree = "<group>"; };
+		ED7F9A581965767E00259BA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7F9A591965767E00259BA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7F9A5B1965767E00259BA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED7F9A611965767E00259BA0 /* lxAvatarCropperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lxAvatarCropperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F9A621965767E00259BA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED7F9A6A1965767E00259BA0 /* lxAvatarCropperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lxAvatarCropperTests-Info.plist"; sourceTree = "<group>"; };
+		ED7F9A6C1965767E00259BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED7F9A6E1965767E00259BA0 /* lxAvatarCropperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lxAvatarCropperTests.m; sourceTree = "<group>"; };
+		ED7F9A7A1965770D00259BA0 /* COAvatarCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COAvatarCropperViewController.h; sourceTree = "<group>"; };
+		ED7F9A7B1965770D00259BA0 /* COAvatarCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropperViewController.m; sourceTree = "<group>"; };
+		ED7F9A7C1965770D00259BA0 /* COViewUtlity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COViewUtlity.h; sourceTree = "<group>"; };
+		ED7F9A7D1965770D00259BA0 /* COViewUtlity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COViewUtlity.m; sourceTree = "<group>"; };
+		ED7F9A811965770D00259BA0 /* COAvatarCropperImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COAvatarCropperImageScrollView.h; sourceTree = "<group>"; };
+		ED7F9A821965770D00259BA0 /* COAvatarCropperImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropperImageScrollView.m; sourceTree = "<group>"; };
+		ED7F9A831965770D00259BA0 /* COAvatarCropperLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COAvatarCropperLayoutView.h; sourceTree = "<group>"; };
+		ED7F9A841965770D00259BA0 /* COAvatarCropperLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropperLayoutView.m; sourceTree = "<group>"; };
+		ED7F9A851965770D00259BA0 /* COAvatarCropperOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COAvatarCropperOverlayView.h; sourceTree = "<group>"; };
+		ED7F9A861965770D00259BA0 /* COAvatarCropperOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropperOverlayView.m; sourceTree = "<group>"; };
+		ED7F9A871965770D00259BA0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		ED7F9A881965770D00259BA0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ED7F9A8A1965770D00259BA0 /* COStandardCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COStandardCameraManager.h; sourceTree = "<group>"; };
+		ED7F9A8B1965770D00259BA0 /* COStandardCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COStandardCameraManager.m; sourceTree = "<group>"; };
+		ED7F9A9419657A1B00259BA0 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		ED7F9A9519657A1B00259BA0 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		ED7F9A9719657ADB00259BA0 /* COFakeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COFakeNavigationBar.h; sourceTree = "<group>"; };
+		ED7F9A9819657ADB00259BA0 /* COFakeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COFakeNavigationBar.m; sourceTree = "<group>"; };
+		ED7F9AA219657F9400259BA0 /* barbuttonicon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_back@2x.png"; sourceTree = "<group>"; };
+		ED7F9AA4196586E800259BA0 /* COAvatarCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COAvatarCropManager.h; sourceTree = "<group>"; };
+		ED7F9AA5196586E800259BA0 /* COAvatarCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropManager.m; sourceTree = "<group>"; };
+		ED7F9AA7196591FF00259BA0 /* COImageUtlity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COImageUtlity.h; sourceTree = "<group>"; };
+		ED7F9AA8196591FF00259BA0 /* COImageUtlity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COImageUtlity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7F9A431965767E00259BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F9A4C1965767E00259BA0 /* CoreGraphics.framework in Frameworks */,
+				ED7F9A4E1965767E00259BA0 /* UIKit.framework in Frameworks */,
+				ED7F9A4A1965767E00259BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F9A5E1965767E00259BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F9A631965767E00259BA0 /* XCTest.framework in Frameworks */,
+				ED7F9A651965767E00259BA0 /* UIKit.framework in Frameworks */,
+				ED7F9A641965767E00259BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7F9A3D1965767E00259BA0 = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A4F1965767E00259BA0 /* lxAvatarCropper */,
+				ED7F9A681965767E00259BA0 /* lxAvatarCropperTests */,
+				ED7F9A481965767E00259BA0 /* Frameworks */,
+				ED7F9A471965767E00259BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7F9A471965767E00259BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A461965767E00259BA0 /* lxAvatarCropper.app */,
+				ED7F9A611965767E00259BA0 /* lxAvatarCropperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7F9A481965767E00259BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A491965767E00259BA0 /* Foundation.framework */,
+				ED7F9A4B1965767E00259BA0 /* CoreGraphics.framework */,
+				ED7F9A4D1965767E00259BA0 /* UIKit.framework */,
+				ED7F9A621965767E00259BA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7F9A4F1965767E00259BA0 /* lxAvatarCropper */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A581965767E00259BA0 /* AppDelegate.h */,
+				ED7F9A591965767E00259BA0 /* AppDelegate.m */,
+				ED7F9A871965770D00259BA0 /* FirstViewController.h */,
+				ED7F9A881965770D00259BA0 /* FirstViewController.m */,
+				ED7F9A9419657A1B00259BA0 /* UIImage+Additions.h */,
+				ED7F9A9519657A1B00259BA0 /* UIImage+Additions.m */,
+				ED7F9A9719657ADB00259BA0 /* COFakeNavigationBar.h */,
+				ED7F9A9819657ADB00259BA0 /* COFakeNavigationBar.m */,
+				ED7F9AA7196591FF00259BA0 /* COImageUtlity.h */,
+				ED7F9AA8196591FF00259BA0 /* COImageUtlity.m */,
+				ED7F9A781965770D00259BA0 /* AvatarCropper */,
+				ED7F9A891965770D00259BA0 /* PhotoShoot */,
+				ED7F9AA119657F9400259BA0 /* images */,
+				ED7F9A5B1965767E00259BA0 /* Images.xcassets */,
+				ED7F9A501965767E00259BA0 /* Supporting Files */,
+			);
+			path = lxAvatarCropper;
+			sourceTree = "<group>";
+		};
+		ED7F9A501965767E00259BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A511965767E00259BA0 /* lxAvatarCropper-Info.plist */,
+				ED7F9A521965767E00259BA0 /* InfoPlist.strings */,
+				ED7F9A551965767E00259BA0 /* main.m */,
+				ED7F9A571965767E00259BA0 /* lxAvatarCropper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED7F9A681965767E00259BA0 /* lxAvatarCropperTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A6E1965767E00259BA0 /* lxAvatarCropperTests.m */,
+				ED7F9A691965767E00259BA0 /* Supporting Files */,
+			);
+			path = lxAvatarCropperTests;
+			sourceTree = "<group>";
+		};
+		ED7F9A691965767E00259BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A6A1965767E00259BA0 /* lxAvatarCropperTests-Info.plist */,
+				ED7F9A6B1965767E00259BA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED7F9A781965770D00259BA0 /* AvatarCropper */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A791965770D00259BA0 /* Controllers */,
+				ED7F9A7C1965770D00259BA0 /* COViewUtlity.h */,
+				ED7F9A7D1965770D00259BA0 /* COViewUtlity.m */,
+				ED7F9AA4196586E800259BA0 /* COAvatarCropManager.h */,
+				ED7F9AA5196586E800259BA0 /* COAvatarCropManager.m */,
+				ED7F9A801965770D00259BA0 /* View */,
+			);
+			path = AvatarCropper;
+			sourceTree = "<group>";
+		};
+		ED7F9A791965770D00259BA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A7A1965770D00259BA0 /* COAvatarCropperViewController.h */,
+				ED7F9A7B1965770D00259BA0 /* COAvatarCropperViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED7F9A801965770D00259BA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A811965770D00259BA0 /* COAvatarCropperImageScrollView.h */,
+				ED7F9A821965770D00259BA0 /* COAvatarCropperImageScrollView.m */,
+				ED7F9A831965770D00259BA0 /* COAvatarCropperLayoutView.h */,
+				ED7F9A841965770D00259BA0 /* COAvatarCropperLayoutView.m */,
+				ED7F9A851965770D00259BA0 /* COAvatarCropperOverlayView.h */,
+				ED7F9A861965770D00259BA0 /* COAvatarCropperOverlayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED7F9A891965770D00259BA0 /* PhotoShoot */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9A8A1965770D00259BA0 /* COStandardCameraManager.h */,
+				ED7F9A8B1965770D00259BA0 /* COStandardCameraManager.m */,
+			);
+			path = PhotoShoot;
+			sourceTree = "<group>";
+		};
+		ED7F9AA119657F9400259BA0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9AA219657F9400259BA0 /* barbuttonicon_back@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7F9A451965767E00259BA0 /* lxAvatarCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F9A721965767E00259BA0 /* Build configuration list for PBXNativeTarget "lxAvatarCropper" */;
+			buildPhases = (
+				ED7F9A421965767E00259BA0 /* Sources */,
+				ED7F9A431965767E00259BA0 /* Frameworks */,
+				ED7F9A441965767E00259BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lxAvatarCropper;
+			productName = lxAvatarCropper;
+			productReference = ED7F9A461965767E00259BA0 /* lxAvatarCropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7F9A601965767E00259BA0 /* lxAvatarCropperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F9A751965767E00259BA0 /* Build configuration list for PBXNativeTarget "lxAvatarCropperTests" */;
+			buildPhases = (
+				ED7F9A5D1965767E00259BA0 /* Sources */,
+				ED7F9A5E1965767E00259BA0 /* Frameworks */,
+				ED7F9A5F1965767E00259BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7F9A671965767E00259BA0 /* PBXTargetDependency */,
+			);
+			name = lxAvatarCropperTests;
+			productName = lxAvatarCropperTests;
+			productReference = ED7F9A611965767E00259BA0 /* lxAvatarCropperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7F9A3E1965767E00259BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = houzhenyong;
+				TargetAttributes = {
+					ED7F9A601965767E00259BA0 = {
+						TestTargetID = ED7F9A451965767E00259BA0;
+					};
+				};
+			};
+			buildConfigurationList = ED7F9A411965767E00259BA0 /* Build configuration list for PBXProject "lxAvatarCropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED7F9A3D1965767E00259BA0;
+			productRefGroup = ED7F9A471965767E00259BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7F9A451965767E00259BA0 /* lxAvatarCropper */,
+				ED7F9A601965767E00259BA0 /* lxAvatarCropperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7F9A441965767E00259BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F9A541965767E00259BA0 /* InfoPlist.strings in Resources */,
+				ED7F9A5C1965767E00259BA0 /* Images.xcassets in Resources */,
+				ED7F9AA319657F9400259BA0 /* barbuttonicon_back@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F9A5F1965767E00259BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F9A6D1965767E00259BA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7F9A421965767E00259BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F9A911965770D00259BA0 /* COAvatarCropperOverlayView.m in Sources */,
+				ED7F9A921965770D00259BA0 /* FirstViewController.m in Sources */,
+				ED7F9A8C1965770D00259BA0 /* COAvatarCropperViewController.m in Sources */,
+				ED7F9A8D1965770D00259BA0 /* COViewUtlity.m in Sources */,
+				ED7F9A5A1965767E00259BA0 /* AppDelegate.m in Sources */,
+				ED7F9A561965767E00259BA0 /* main.m in Sources */,
+				ED7F9AA6196586E800259BA0 /* COAvatarCropManager.m in Sources */,
+				ED7F9A901965770D00259BA0 /* COAvatarCropperLayoutView.m in Sources */,
+				ED7F9A9619657A1B00259BA0 /* UIImage+Additions.m in Sources */,
+				ED7F9AA9196591FF00259BA0 /* COImageUtlity.m in Sources */,
+				ED7F9A8F1965770D00259BA0 /* COAvatarCropperImageScrollView.m in Sources */,
+				ED7F9A9919657ADB00259BA0 /* COFakeNavigationBar.m in Sources */,
+				ED7F9A931965770D00259BA0 /* COStandardCameraManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F9A5D1965767E00259BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F9A6F1965767E00259BA0 /* lxAvatarCropperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7F9A671965767E00259BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7F9A451965767E00259BA0 /* lxAvatarCropper */;
+			targetProxy = ED7F9A661965767E00259BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7F9A521965767E00259BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F9A531965767E00259BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED7F9A6B1965767E00259BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F9A6C1965767E00259BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7F9A701965767E00259BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED7F9A711965767E00259BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7F9A731965767E00259BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lxAvatarCropper/lxAvatarCropper-Prefix.pch";
+				INFOPLIST_FILE = "lxAvatarCropper/lxAvatarCropper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED7F9A741965767E00259BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lxAvatarCropper/lxAvatarCropper-Prefix.pch";
+				INFOPLIST_FILE = "lxAvatarCropper/lxAvatarCropper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED7F9A761965767E00259BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lxAvatarCropper.app/lxAvatarCropper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lxAvatarCropper/lxAvatarCropper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lxAvatarCropperTests/lxAvatarCropperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED7F9A771965767E00259BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lxAvatarCropper.app/lxAvatarCropper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lxAvatarCropper/lxAvatarCropper-Prefix.pch";
+				INFOPLIST_FILE = "lxAvatarCropperTests/lxAvatarCropperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7F9A411965767E00259BA0 /* Build configuration list for PBXProject "lxAvatarCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F9A701965767E00259BA0 /* Debug */,
+				ED7F9A711965767E00259BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F9A721965767E00259BA0 /* Build configuration list for PBXNativeTarget "lxAvatarCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F9A731965767E00259BA0 /* Debug */,
+				ED7F9A741965767E00259BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED7F9A751965767E00259BA0 /* Build configuration list for PBXNativeTarget "lxAvatarCropperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F9A761965767E00259BA0 /* Debug */,
+				ED7F9A771965767E00259BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7F9A3E1965767E00259BA0 /* Project object */;
+}
