@@ -74,8 +74,8 @@
 
 - (void)setTopBarsHidden:(BOOL)hidden
 {
-    [self.navigationController setNavigationBarHidden:hidden animated:NO];
     [[UIApplication sharedApplication] setStatusBarHidden:hidden withAnimation:UIStatusBarAnimationNone];
+    [self.navigationController setNavigationBarHidden:hidden animated:NO];
 }
 
 - (void)viewWillAppear:(BOOL)animated
