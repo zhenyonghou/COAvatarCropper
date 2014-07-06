@@ -7,13 +7,13 @@
 //
 
 #import "FirstViewController.h"
-#import "COAvatarCropManager.h"
+#import "COAvatarCropComponent.h"
 
-@interface FirstViewController () <UIActionSheetDelegate, COAvatarCropManagerDelegate>
+@interface FirstViewController () <UIActionSheetDelegate, COAvatarCropComponentDelegate>
 
 @property (nonatomic, strong) UIButton *avatarButton;
 
-@property (nonatomic, strong) COAvatarCropManager *cropManager;
+@property (nonatomic, strong) COAvatarCropComponent *cropComponent;
 
 @end
 
@@ -46,8 +46,8 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    if (!self.cropManager) {
-        self.cropManager = [[COAvatarCropManager alloc] init];
+    if (!self.cropComponent) {
+        self.cropComponent = [[COAvatarCropComponent alloc] init];
     }
     COAvatarCropControllerSourceType sourceType;
     if (buttonIndex == 0) {     // 本地相册
@@ -56,21 +56,22 @@
         sourceType = kAvatarCropControllerSourceTypeCamerera;
     }
     
-    self.cropManager.delegate = self;
+    self.cropComponent.delegate = self;
     
-    [self.cropManager showInViewController:self controllerSourceType:sourceType];
+    [self.cropComponent showInViewController:self controllerSourceType:sourceType];
 }
 
+#pragma mark- COAvatarCropComponentDelegate
 
 - (void)avatarCropDidCancel
 {
-    self.cropManager = nil;
+    self.cropComponent = nil;
 }
 
 - (void)croppedImage:(UIImage*)image
 {
     [self.avatarButton setImage:image forState:UIControlStateNormal];
-    self.cropManager = nil;
+    self.cropComponent = nil;
 }
 
 @end

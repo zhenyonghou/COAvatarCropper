@@ -6,16 +6,17 @@
 //  Copyright (c) 2014年 houzhenyong. All rights reserved.
 //
 
-#import "COAvatarCropManager.h"
-#import "COStandardCameraManager.h"
+#import "COAvatarCropComponent.h"
+#import "COStandardCamera.h"
 #import "COAvatarCropperViewController.h"
 
-@interface COAvatarCropManager()<COStandardCameraManagerDelegate
-, COAvatarCropperViewControllerDelegate
+@interface COAvatarCropComponent()<
+COAvatarCropperViewControllerDelegate
 , UINavigationControllerDelegate
-, UIImagePickerControllerDelegate>
+, UIImagePickerControllerDelegate
+, COStandardCameraDelegate>
 
-@property (nonatomic, strong) COStandardCameraManager *cameraManager;
+@property (nonatomic, strong) COStandardCamera *cameraManager;
 
 @property (nonatomic, strong) UIImagePickerController *imagePickerController;
 
@@ -23,10 +24,11 @@
 
 @property (nonatomic, weak) UIViewController* parentController;
 @property (nonatomic, assign) COAvatarCropControllerSourceType controllerSourceType;
+
 @end
 
 
-@implementation COAvatarCropManager
+@implementation COAvatarCropComponent
 
 - (void)showInViewController:(UIViewController*)viewController controllerSourceType:(COAvatarCropControllerSourceType)controllerSourcetype
 {
@@ -35,7 +37,7 @@
     
     if (self.controllerSourceType == kAvatarCropControllerSourceTypeCamerera) {
         if (!self.cameraManager) {
-            self.cameraManager = [[COStandardCameraManager alloc] init];
+            self.cameraManager = [[COStandardCamera alloc] init];
             self.cameraManager.delegate = self;
         }
         [self.cameraManager showCameraInViewController:self.parentController animated:YES];
@@ -58,7 +60,7 @@
     [pickerController pushViewController:_avatarCropperViewController animated:YES];
 }
 
-#pragma mark- COStandardCameraManagerDelegate
+#pragma mark- COStandardCameraDelegate
 
 - (void)cameraController:(UIViewController *)controller didFinishWithImage:(UIImage *)image
 {

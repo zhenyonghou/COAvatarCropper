@@ -7,12 +7,12 @@ typedef NS_ENUM(NSInteger, COCameraOrientation) {
     kCameraOrientationFront            // 前置摄像头
 };
 
-@protocol COStandardCameraManagerDelegate;
+@protocol COStandardCameraDelegate;
 
 
-@interface COStandardCameraManager : NSObject<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+@interface COStandardCamera : NSObject<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
-@property(nonatomic, weak)id<COStandardCameraManagerDelegate> delegate;
+@property(nonatomic, weak)id<COStandardCameraDelegate> delegate;
 @property(nonatomic, assign)COCameraOrientation cameraOrientation;
 
 @property(nonatomic, strong, readonly) UIImagePickerController *pickerController;
@@ -24,7 +24,7 @@ typedef NS_ENUM(NSInteger, COCameraOrientation) {
 @end
 
 
-@protocol COStandardCameraManagerDelegate <NSObject>
+@protocol COStandardCameraDelegate <NSObject>
 
 @optional
 - (void)cameraController:(UIViewController *)controller didFinishWithImage:(UIImage *)image;

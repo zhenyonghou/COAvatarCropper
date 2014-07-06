@@ -2,14 +2,14 @@
 
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <UIKit/UIImagePickerController.h>
-#import "COStandardCameraManager.h"
+#import "COStandardCamera.h"
 #import "COImageUtlity.h"
 
-@interface COStandardCameraManager ()
+@interface COStandardCamera ()
 
 @end
 
-@implementation COStandardCameraManager
+@implementation COStandardCamera
 
 - (id)init
 {
@@ -58,7 +58,7 @@
         CGFloat max = kHDImageMaxLength;
         image = [COImageUtlity scaleAndRotateImage:image size:max];
         
-        __strong id<COStandardCameraManagerDelegate> strongDelegate = self.delegate;
+        __strong id<COStandardCameraDelegate> strongDelegate = self.delegate;
         if (strongDelegate && [strongDelegate respondsToSelector:@selector(cameraController:didFinishWithImage:)]) {
             [strongDelegate performSelector:@selector(cameraController:didFinishWithImage:) withObject:picker withObject:image];
         }
@@ -90,7 +90,7 @@
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-    __strong id<COStandardCameraManagerDelegate> strongDelegate = self.delegate;
+    __strong id<COStandardCameraDelegate> strongDelegate = self.delegate;
     if (strongDelegate && [strongDelegate respondsToSelector:@selector(cameraControllerDidCancel:)]) {
         [strongDelegate cameraControllerDidCancel:picker];
     }

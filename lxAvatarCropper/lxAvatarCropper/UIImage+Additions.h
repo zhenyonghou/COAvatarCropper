@@ -11,7 +11,7 @@
 + (UIImage *)imageWithColor:(UIColor *)color;
 
 // 相机拍的照片处理前先过此函数
-+ (UIImage *)scaleAndRotateImage:(UIImage *)image;
++ (UIImage *)rotateToOrientationUpImage:(UIImage *)image;
 
 // 截取部分图
 + (UIImage*)cropImage:(UIImage *)originalImage toRect:(CGRect)rect;

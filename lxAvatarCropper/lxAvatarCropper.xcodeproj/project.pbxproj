@@ -25,12 +25,12 @@
 		ED7F9A901965770D00259BA0 /* COAvatarCropperLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A841965770D00259BA0 /* COAvatarCropperLayoutView.m */; };
 		ED7F9A911965770D00259BA0 /* COAvatarCropperOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A861965770D00259BA0 /* COAvatarCropperOverlayView.m */; };
 		ED7F9A921965770D00259BA0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A881965770D00259BA0 /* FirstViewController.m */; };
-		ED7F9A931965770D00259BA0 /* COStandardCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A8B1965770D00259BA0 /* COStandardCameraManager.m */; };
 		ED7F9A9619657A1B00259BA0 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A9519657A1B00259BA0 /* UIImage+Additions.m */; };
 		ED7F9A9919657ADB00259BA0 /* COFakeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9A9819657ADB00259BA0 /* COFakeNavigationBar.m */; };
 		ED7F9AA319657F9400259BA0 /* barbuttonicon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7F9AA219657F9400259BA0 /* barbuttonicon_back@2x.png */; };
-		ED7F9AA6196586E800259BA0 /* COAvatarCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9AA5196586E800259BA0 /* COAvatarCropManager.m */; };
+		ED7F9AA6196586E800259BA0 /* COAvatarCropComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9AA5196586E800259BA0 /* COAvatarCropComponent.m */; };
 		ED7F9AA9196591FF00259BA0 /* COImageUtlity.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9AA8196591FF00259BA0 /* COImageUtlity.m */; };
+		ED7F9AAD196690C200259BA0 /* COStandardCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F9AAC196690C200259BA0 /* COStandardCamera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,17 +72,17 @@
 		ED7F9A861965770D00259BA0 /* COAvatarCropperOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropperOverlayView.m; sourceTree = "<group>"; };
 		ED7F9A871965770D00259BA0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		ED7F9A881965770D00259BA0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		ED7F9A8A1965770D00259BA0 /* COStandardCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COStandardCameraManager.h; sourceTree = "<group>"; };
-		ED7F9A8B1965770D00259BA0 /* COStandardCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COStandardCameraManager.m; sourceTree = "<group>"; };
 		ED7F9A9419657A1B00259BA0 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		ED7F9A9519657A1B00259BA0 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		ED7F9A9719657ADB00259BA0 /* COFakeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COFakeNavigationBar.h; sourceTree = "<group>"; };
 		ED7F9A9819657ADB00259BA0 /* COFakeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COFakeNavigationBar.m; sourceTree = "<group>"; };
 		ED7F9AA219657F9400259BA0 /* barbuttonicon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_back@2x.png"; sourceTree = "<group>"; };
-		ED7F9AA4196586E800259BA0 /* COAvatarCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COAvatarCropManager.h; sourceTree = "<group>"; };
-		ED7F9AA5196586E800259BA0 /* COAvatarCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropManager.m; sourceTree = "<group>"; };
+		ED7F9AA4196586E800259BA0 /* COAvatarCropComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COAvatarCropComponent.h; sourceTree = "<group>"; };
+		ED7F9AA5196586E800259BA0 /* COAvatarCropComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COAvatarCropComponent.m; sourceTree = "<group>"; };
 		ED7F9AA7196591FF00259BA0 /* COImageUtlity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COImageUtlity.h; sourceTree = "<group>"; };
 		ED7F9AA8196591FF00259BA0 /* COImageUtlity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COImageUtlity.m; sourceTree = "<group>"; };
+		ED7F9AAB196690C200259BA0 /* COStandardCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COStandardCamera.h; sourceTree = "<group>"; };
+		ED7F9AAC196690C200259BA0 /* COStandardCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COStandardCamera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 				ED7F9AA7196591FF00259BA0 /* COImageUtlity.h */,
 				ED7F9AA8196591FF00259BA0 /* COImageUtlity.m */,
 				ED7F9A781965770D00259BA0 /* AvatarCropper */,
-				ED7F9A891965770D00259BA0 /* PhotoShoot */,
+				ED7F9AAA196690C200259BA0 /* StandardCamera */,
 				ED7F9AA119657F9400259BA0 /* images */,
 				ED7F9A5B1965767E00259BA0 /* Images.xcassets */,
 				ED7F9A501965767E00259BA0 /* Supporting Files */,
@@ -196,8 +196,8 @@
 				ED7F9A791965770D00259BA0 /* Controllers */,
 				ED7F9A7C1965770D00259BA0 /* COViewUtlity.h */,
 				ED7F9A7D1965770D00259BA0 /* COViewUtlity.m */,
-				ED7F9AA4196586E800259BA0 /* COAvatarCropManager.h */,
-				ED7F9AA5196586E800259BA0 /* COAvatarCropManager.m */,
+				ED7F9AA4196586E800259BA0 /* COAvatarCropComponent.h */,
+				ED7F9AA5196586E800259BA0 /* COAvatarCropComponent.m */,
 				ED7F9A801965770D00259BA0 /* View */,
 			);
 			path = AvatarCropper;
@@ -225,21 +225,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		ED7F9A891965770D00259BA0 /* PhotoShoot */ = {
-			isa = PBXGroup;
-			children = (
-				ED7F9A8A1965770D00259BA0 /* COStandardCameraManager.h */,
-				ED7F9A8B1965770D00259BA0 /* COStandardCameraManager.m */,
-			);
-			path = PhotoShoot;
-			sourceTree = "<group>";
-		};
 		ED7F9AA119657F9400259BA0 /* images */ = {
 			isa = PBXGroup;
 			children = (
 				ED7F9AA219657F9400259BA0 /* barbuttonicon_back@2x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		ED7F9AAA196690C200259BA0 /* StandardCamera */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F9AAB196690C200259BA0 /* COStandardCamera.h */,
+				ED7F9AAC196690C200259BA0 /* COStandardCamera.m */,
+			);
+			path = StandardCamera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +289,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = houzhenyong;
 				TargetAttributes = {
+					ED7F9A451965767E00259BA0 = {
+						DevelopmentTeam = 2T4P8HTLV3;
+					};
 					ED7F9A601965767E00259BA0 = {
 						TestTargetID = ED7F9A451965767E00259BA0;
 					};
@@ -340,17 +343,17 @@
 			files = (
 				ED7F9A911965770D00259BA0 /* COAvatarCropperOverlayView.m in Sources */,
 				ED7F9A921965770D00259BA0 /* FirstViewController.m in Sources */,
+				ED7F9AAD196690C200259BA0 /* COStandardCamera.m in Sources */,
 				ED7F9A8C1965770D00259BA0 /* COAvatarCropperViewController.m in Sources */,
 				ED7F9A8D1965770D00259BA0 /* COViewUtlity.m in Sources */,
 				ED7F9A5A1965767E00259BA0 /* AppDelegate.m in Sources */,
 				ED7F9A561965767E00259BA0 /* main.m in Sources */,
-				ED7F9AA6196586E800259BA0 /* COAvatarCropManager.m in Sources */,
+				ED7F9AA6196586E800259BA0 /* COAvatarCropComponent.m in Sources */,
 				ED7F9A901965770D00259BA0 /* COAvatarCropperLayoutView.m in Sources */,
 				ED7F9A9619657A1B00259BA0 /* UIImage+Additions.m in Sources */,
 				ED7F9AA9196591FF00259BA0 /* COImageUtlity.m in Sources */,
 				ED7F9A8F1965770D00259BA0 /* COAvatarCropperImageScrollView.m in Sources */,
 				ED7F9A9919657ADB00259BA0 /* COFakeNavigationBar.m in Sources */,
-				ED7F9A931965770D00259BA0 /* COStandardCameraManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,11 +470,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lxAvatarCropper/lxAvatarCropper-Prefix.pch";
 				INFOPLIST_FILE = "lxAvatarCropper/lxAvatarCropper-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -481,11 +487,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lxAvatarCropper/lxAvatarCropper-Prefix.pch";
 				INFOPLIST_FILE = "lxAvatarCropper/lxAvatarCropper-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -549,6 +558,7 @@
 				ED7F9A741965767E00259BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED7F9A751965767E00259BA0 /* Build configuration list for PBXNativeTarget "lxAvatarCropperTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +567,7 @@
 				ED7F9A771965767E00259BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  COAvatarCropManager.h
+//  COAvatarCropComponent.h
 //  lxAvatarCropper
 //
 //  Created by houzhenyong on 14-7-3.
@@ -13,20 +13,21 @@ typedef NS_ENUM(NSInteger, COAvatarCropControllerSourceType) {
     kAvatarCropControllerSourceTypePhotosAlbum
 };
 
-@protocol COAvatarCropManagerDelegate;
+@protocol COAvatarCropComponentDelegate;
 
-@interface COAvatarCropManager : NSObject
+@interface COAvatarCropComponent : NSObject
 
-@property (nonatomic, weak) id<COAvatarCropManagerDelegate> delegate;
+@property (nonatomic, weak) id<COAvatarCropComponentDelegate> delegate;
 
 - (void)showInViewController:(UIViewController*)viewController controllerSourceType:(COAvatarCropControllerSourceType)controllerSourcetype;
 
 @end
 
-@protocol COAvatarCropManagerDelegate <NSObject>
 
-- (void)avatarCropDidCancel;
+@protocol COAvatarCropComponentDelegate <NSObject>
 
 - (void)croppedImage:(UIImage*)image;
+
+- (void)avatarCropDidCancel;
 
 @end

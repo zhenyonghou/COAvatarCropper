@@ -38,12 +38,6 @@ static CGFloat kImageViewMaximumZoomScale   = 2.5;
         
         _displayImageView = [[UIImageView alloc] initWithFrame:self.bounds];
         [self addSubview:_displayImageView];
-        
-//        self.previewImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-//        self.previewImageView.contentMode = UIViewContentModeScaleAspectFill;
-//        self.previewImageView.backgroundColor = [UIColor redColor];
-//        [self addSubview:self.previewImageView];
-//        self.previewImageView.hidden = YES;
     }
     return self;
 }
@@ -82,9 +76,11 @@ static CGFloat kImageViewMaximumZoomScale   = 2.5;
     
     UIImage *originalImage = self.displayImageView.image;
     UIImageOrientation orientation = originalImage.imageOrientation;
-    NSLog(@"image orientation = %d", orientation);
+    NSLog(@"image orientation0 = %d", orientation);
+
+    UIImage* orientationUpImage = [UIImage rotateToOrientationUpImage:originalImage];
     
-    UIImage* cropedImage = [UIImage cropImage:originalImage toRect:cropRect];
+    UIImage* cropedImage = [UIImage cropImage:orientationUpImage toRect:cropRect];
     
     return [UIImage scaleImage:cropedImage toSize:CGSizeMake(150, 150)];
 }

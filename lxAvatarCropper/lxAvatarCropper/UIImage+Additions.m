@@ -25,7 +25,7 @@
 static CGFloat DegreesToRadians(CGFloat degrees) {return degrees * M_PI / 180;}
 static CGFloat RadiansToDegrees(CGFloat radians) {return radians * 180/M_PI;}
 
-+ (UIImage *)scaleAndRotateImage:(UIImage *)image
++ (UIImage *)rotateToOrientationUpImage:(UIImage *)image
 {
     int width = image.size.width;
     int height = image.size.height;
@@ -86,7 +86,7 @@ static CGFloat RadiansToDegrees(CGFloat radians) {return radians * 180/M_PI;}
     if (!imageRef) {
         imageRef = [[self class] imageFromCIImage:originalImage.CIImage].CGImage;
     }
-    
+
     CGImageRef subImageRef = CGImageCreateWithImageInRect(imageRef, rect);
     CGRect smallBounds = CGRectMake(0, 0, CGImageGetWidth(subImageRef), CGImageGetHeight(subImageRef));
 
